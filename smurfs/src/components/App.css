@@ -1,28 +1,33 @@
 .App {
   text-align: center;
+  background-color: blue;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.smurf {
+  border: 2px solid lightblue;
+  width: 20%;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+p,
+h3 {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+* {
+  font-family: 'Handlee', cursive;
+}
+.smurfList {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-intro {
-  font-size: large;
+h1 {
+  padding-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+img {
+  height: 100px;
+  width: 50px;
 }
